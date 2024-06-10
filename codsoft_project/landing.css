@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url('https://img.freepik.com/premium-photo/illustration-fitness-equipments-design-background_916191-36199.jpg') no-repeat center center/cover;
+    color: rgb(215, 69, 69);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration-color: #DC7D7D;
+   
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background: #ff6b6b;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hero .btn:hover {
+    background: #ff3b3b;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background: #204C72;
+}
+
+#about, #contact {
+    background: #DC7D7D;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.service {
+    background:#DC7D7D;
+    margin: 40px 0;
+}
+
+.service h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px;
+    background: #333;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
